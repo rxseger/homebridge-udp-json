@@ -47,8 +47,14 @@ class UDPJSONPlugin
 
     this.server.on('message', (msg, rinfo) => {
       console.log(`server received udp: ${msg} from ${rinfo.address}`);
-   
-      const json = JSON.parse(msg);
+
+      let json;
+      try {
+          json = JSON.parse(msg);
+      } catch (e) {
+          console.log(`failed to decode JSON: ${e}`);
+          return;
+      }
 
       const temperature_c = json.temperature_c;
       //const pressure_hPa = json.pressure_hPa; // TODO
