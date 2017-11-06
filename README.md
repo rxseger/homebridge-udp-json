@@ -25,7 +25,7 @@ UDP packets are expected to be sent from a remote sensor in JSON, for example:
 ```
 
 This is a custom structure, but is simple enough to send from cheap Wi-Fi enabled microcontrollers
-such as the ESP8266.
+such as the ESP8266. Example sender program for Arduino: https://github.com/rxseger/dooper
 
 ## See also
 
