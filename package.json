@@ -1,0 +1,32 @@
+{
+  "name": "homebridge-udp-json",
+  "version": "1.0.0",
+  "description": "UDP server receiving JSON messages from sensors for Homebridge: https://github.com/nfarina/homebridge\"",
+  "main": "udp-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rxseger/homebridge-udp-json.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "udp",
+    "temperature",
+    "humidity",
+    "sensor"
+  ],
+  "author": "rxserger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rxseger/homebridge-udp-json/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "homepage": "https://github.com/rxseger/homebridge-udp-json#readme",
+  "dependencies": {
+  }
+}
