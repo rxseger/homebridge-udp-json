@@ -1,6 +1,6 @@
 {
   "name": "homebridge-udp-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UDP server receiving JSON messages from sensors for Homebridge: https://github.com/nfarina/homebridge\"",
   "main": "udp-json.js",
   "scripts": {
