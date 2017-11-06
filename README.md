@@ -16,7 +16,7 @@ plugin for [Homebridge](https://github.com/nfarina/homebridge)
 * `listen_port` (8268): UDP port to listen for packets on
 
 This currently plugin creates two services: TemperatureSensor and HumiditySensor,
-but other sensors
+but other sensor types could easily be added in the future.
 
 UDP packets are expected to be sent from a remote sensor in JSON, for example:
 
@@ -24,7 +24,7 @@ UDP packets are expected to be sent from a remote sensor in JSON, for example:
 {"temperature_c": 24.35, "pressure_hPa": 1010.73, "altitude_m": 21.01, "humidity_percent": 38.20}
 ```
 
-This is a custom structure, but simple enough to send from cheap Wi-Fi enabled microcontrollers
+This is a custom structure, but is simple enough to send from cheap Wi-Fi enabled microcontrollers
 such as the ESP8266.
 
 ## See also
